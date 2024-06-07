@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "B4C09C747492C88197170F6F3B3AFF8C",
+  "keywordFileContentHash": "52DAF50D4C9CC1CE47DC92BA6D4FB0FB",
   "keywordClasses": [
     {
       "name": "MongoDB",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "insertOpenCIF",
@@ -65,8 +64,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "deleteOpenCIF",
@@ -97,11 +95,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
