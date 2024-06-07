@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>select_LayananExpress</name>
+   <tag></tag>
+   <elementGuidId>8eb1f245-cb4b-49bb-9fec-0ac250aa6195</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeStaticText</value>
+      <webElementGuid>816f4498-07e6-488c-8c6f-840e5831827d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Express</value>
+      <webElementGuid>15114201-ac8b-4c06-ae52-44ce00677c0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Express</value>
+      <webElementGuid>10841659-deff-4b3d-ba88-7af716c129d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Express</value>
+      <webElementGuid>18b9b4a3-4109-4c16-90e0-9970bfca22ae</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Express' and @name = 'Express' and @value = 'Express']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

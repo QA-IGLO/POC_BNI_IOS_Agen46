@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>verify_PageWelcomeBNIAgen46</name>
+   <tag></tag>
+   <elementGuidId>6e488ac4-9733-444b-8fbe-1afabb5c391b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeStaticText</value>
+      <webElementGuid>8c74be9c-30ef-4555-a3f7-00d96229d0d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Lewati</value>
+      <webElementGuid>40189a92-2f8d-45d6-8cae-6959d77bb4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Lewati</value>
+      <webElementGuid>709a8e2e-3902-463c-8004-7350b97928e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Lewati</value>
+      <webElementGuid>3ba63937-8771-48eb-949b-02cffc9fc378</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @value = 'Lewati' and @name = 'Lewati' and @label = 'Lewati']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

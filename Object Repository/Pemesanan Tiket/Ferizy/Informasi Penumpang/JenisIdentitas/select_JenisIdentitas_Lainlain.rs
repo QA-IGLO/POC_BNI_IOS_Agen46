@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>select_JenisIdentitas_Lainlain</name>
+   <tag></tag>
+   <elementGuidId>567c1650-d789-4f1b-80a8-f4eb38e7a0dd</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeStaticText</value>
+      <webElementGuid>f081d852-a31c-4374-8d36-2d75269497f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Lain-lain</value>
+      <webElementGuid>a6266836-df34-4d77-becc-140aef8250a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Lain-lain</value>
+      <webElementGuid>185cfb70-32c5-421c-a1e0-2b7d78dfa62e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Lain-lain</value>
+      <webElementGuid>30d2b1de-3576-44c6-b1aa-9ca512fc437b</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Lain-lain' and @name = 'Lain-lain' and @value = 'Lain-lain']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

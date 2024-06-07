@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>btn_Lanjutkan</name>
+   <tag></tag>
+   <elementGuidId>990bf2af-b621-472f-ae83-a1c55fcbe591</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeStaticText</value>
+      <webElementGuid>4785424d-c398-4a9b-8b4a-713b0a5050c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Lanjutkan</value>
+      <webElementGuid>53a2fc69-d04d-4aeb-ada0-ca0dab00b40a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Lanjutkan</value>
+      <webElementGuid>0dfe9556-ce94-4e5f-bcb1-e2593cf554ac</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @name = 'Lanjutkan' and @label = 'Lanjutkan']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

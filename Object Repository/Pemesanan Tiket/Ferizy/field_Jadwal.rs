@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>field_Jadwal</name>
+   <tag></tag>
+   <elementGuidId>c75b2c87-42e4-434c-a188-d58d86356512</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeImage</value>
+      <webElementGuid>cd8d0db7-92a4-43cd-b0bb-475cc46b5d4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Jadwal</value>
+      <webElementGuid>cd4bd557-5160-4fe1-a917-e7243f269082</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Jadwal</value>
+      <webElementGuid>ed7b77e8-3147-43fd-8bcd-11bc47e25b62</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeImage' and @label = 'Jadwal' and @name = 'Jadwal']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

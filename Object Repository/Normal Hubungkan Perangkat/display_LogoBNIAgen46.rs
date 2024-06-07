@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>display_LogoBNIAgen46</name>
+   <tag></tag>
+   <elementGuidId>aa1f2187-7cd7-4baa-99af-a380a7656f1e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src = 'https://192.168.152.220/assets/img/logo_baru_1.png']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>719a3e2e-8527-43d0-a47f-3e0cc237fc1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://192.168.152.220/assets/img/logo_baru_1.png</value>
+      <webElementGuid>c53682db-b9a4-4cfa-83de-9bb958848323</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

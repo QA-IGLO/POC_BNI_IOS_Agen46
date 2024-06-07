@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>select_PelabuhanAsal_Merak</name>
+   <tag></tag>
+   <elementGuidId>3524a981-70bf-4274-b7bc-2070f2f83c19</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeStaticText</value>
+      <webElementGuid>206ffb33-8170-488c-977b-79f2bc41576d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Banten
+Merak</value>
+      <webElementGuid>fab723c5-3420-4dfb-aae6-0317bf32850d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Banten
+Merak</value>
+      <webElementGuid>adaba5ee-bd3f-4791-8945-68c4d6a7ce49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Banten
+Merak</value>
+      <webElementGuid>5d44fb7e-db6e-4841-87b4-a924a8a3264c</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeStaticText' and @label = 'Banten
+Merak' and @name = 'Banten
+Merak' and @value = 'Banten
+Merak']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

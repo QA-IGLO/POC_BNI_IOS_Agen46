@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>Tab_TiketTransportasi</name>
+   <tag></tag>
+   <elementGuidId>4e521d7a-711c-4de8-b03c-e9cc75a169a2</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeOther</value>
+      <webElementGuid>3613017d-ccc1-4e78-86e7-4cb10f123a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Tiket
+Transportasi</value>
+      <webElementGuid>48c5f1fc-0b98-45f6-8a5e-5f112f6a3bac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Tiket
+Transportasi</value>
+      <webElementGuid>14256a69-e000-4e7e-b74a-15d3c38f0e91</webElementGuid>
+   </webElementProperties>
+   <locator>//*[@type = 'XCUIElementTypeOther' and @label = 'Tiket
+Transportasi' and @name = 'Tiket
+Transportasi']</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

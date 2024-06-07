@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>field_DesaKelurahan</name>
+   <tag></tag>
+   <elementGuidId>4ef5511f-24d2-4c83-8d6a-fedd00ce63c3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>XCUIElementTypeOther</value>
+      <webElementGuid>20300b37-e24e-41e1-ae4e-8fa300f800ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Desa/Kelurahan</value>
+      <webElementGuid>329165e5-bbc2-48b6-ae0c-0c6afa102446</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>label</name>
+      <type>Main</type>
+      <value>Desa/Kelurahan</value>
+      <webElementGuid>d571839a-c1d6-4cde-9c57-061f39d3fb08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//XCUIElementTypeOther[@name=&quot;Desa/Kelurahan&quot;]</value>
+      <webElementGuid>3e296e07-e183-45d5-b7d1-1c71bdde1efa</webElementGuid>
+   </webElementProperties>
+   <locator>//XCUIElementTypeOther[@name=&quot;Desa/Kelurahan&quot;][count(. | //*[@type = 'XCUIElementTypeOther' and @name = 'Desa/Kelurahan' and @label = 'Desa/Kelurahan']) = count(//*[@type = 'XCUIElementTypeOther' and @name = 'Desa/Kelurahan' and @label = 'Desa/Kelurahan'])]</locator>
+   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+</MobileElementEntity>

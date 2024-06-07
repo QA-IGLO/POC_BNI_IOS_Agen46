@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>dropdown_PembukaanRekening</name>
+   <tag></tag>
+   <elementGuidId>459a1d63-2c3c-4fa3-bd5c-2f44d075d3a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@name = 'onboardPermitsDto.openAccountGoal' and @id = 'onboardPermitsDto.openAccountGoal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>68aabc46-ae88-4e78-8a35-75e8b9a088bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>onboardPermitsDto.openAccountGoal</value>
+      <webElementGuid>482c31b7-7eaf-46f6-9b05-750cc592d262</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>onboardPermitsDto.openAccountGoal</value>
+      <webElementGuid>3b9d36b1-8758-422d-8a57-15790befc48b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
