@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "88098283963161600DAEB47EB4081284",
+  "keywordFileContentHash": "169A70395CAEE9C3675585AD7547115D",
   "keywordClasses": [
     {
       "name": "screenshots",
       "keywordMethods": [
         {
           "name": "fullPageScreenshots",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "startApplication",
@@ -24,10 +25,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

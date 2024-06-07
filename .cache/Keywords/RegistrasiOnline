@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1FFCA3DB6BDA2931744AE499CF495929",
+  "keywordFileContentHash": "7FBA53B130584561402B1B86312ACBFC",
   "keywordClasses": [
     {
       "name": "RegistrasiOnline",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_KotaKabupaten",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_Kecamatan",
@@ -56,7 +58,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_DesaKelurahann",
@@ -74,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_KodePos",
@@ -92,7 +96,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_KantorCabangPadanan",
@@ -110,7 +115,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_OutletBNITerdekat",
@@ -128,10 +134,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

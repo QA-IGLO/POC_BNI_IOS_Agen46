@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "1B5AB87B5AE2A5244289676F2899FD12",
+  "keywordFileContentHash": "72F7114B6AF32E3913DB48D51D17ED14",
   "keywordClasses": [
     {
       "name": "utilsKeywordPackage.UtilsKeyword",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "swpieRight",
@@ -38,7 +39,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "swipeDown_DropdownPenumpang",
@@ -56,7 +58,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_Provinsi",
@@ -74,7 +77,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_KotaKabupaten",
@@ -92,7 +96,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_Kecamatan",
@@ -110,7 +115,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_DesaKelurahann",
@@ -128,7 +134,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_KodePos",
@@ -146,7 +153,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "select_Pekerjaan",
@@ -164,7 +172,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "inputTanggalLahir",
@@ -182,7 +191,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "waitAfterInsertManualOTP_Registration",
@@ -200,10 +210,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
