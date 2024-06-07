@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Block_Service - Delete TransferBNIInquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecbf3c53-5c2f-4708-95ab-fa8787c64126</testCaseGuid>
+</TestCaseEntity>

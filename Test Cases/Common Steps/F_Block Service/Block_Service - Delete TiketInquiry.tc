@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Block_Service - Delete TiketInquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>045a055c-a7c3-42b6-b687-5a9023083148</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Block_Service - Insert TransferBNIInquiry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d683d1b6-2e21-46c3-8bac-842d12e74ae2</testCaseGuid>
+</TestCaseEntity>
