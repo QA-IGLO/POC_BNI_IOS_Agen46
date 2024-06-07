@@ -1,0 +1,813 @@
+[35m[Appium][39m Welcome to Appium v2.5.4 (REV e0bc557e7b991cb23583679e1cf1c8a92b793aeb)
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m { basePath: [32m'/wd/hub'[39m, loglevel: [32m'info'[39m, port: [33m55364[39m }
+[35m[Appium][39m Attempting to load driver xcuitest...
+[Appium] Appium REST http interface listener started on http://0.0.0.0:55364/wd/hub
+[Appium] You can provide the following URLs in your client code to connect to this server:
+[Appium] 	http://127.0.0.1:55364/wd/hub (only accessible from the same host)
+[Appium] 	http://192.168.137.249:55364/wd/hub
+[Appium] Available drivers:
+[Appium]   - xcuitest@5.16.1 (automationName 'XCUITest')
+[Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 5 ms - 199
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[38;5;0m[HTTP][0m {"desiredCapabilities":{"appium:noReset":true,"appium:waitForAppScript":"true;","appium:udid":"00008030-001E408C2232402E","appium:newCommandTimeout":1800,"appium:wdaLocalPort":55325,"appium:deviceName":"QAO iPhone","platformName":"iOS","appium:automationName":"XCUITest","appium:fullReset":false,"appium:app":"/Users/a1947/Downloads/BNI-Agen46-protected.ipa","appium:platformVersion":"14.7.1"},"capabilities":{"firstMatch":[{"appium:app":"/Users/a1947/Downloads/BNI-Agen46-protected.ipa","appium:automationName":"XCUITest","appium:deviceName":"QAO iPhone","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"appium:platformVersion":"14.7.1","appium:udid":"00008030-001E408C2232402E","appium:waitForAppScript":"true;","appium:wdaLocalPort":55325,"platformName":"ios"}]}}
+[Appium] Attempting to find matching driver for automationName 'XCUITest' and platformName 'ios'
+[Appium] The 'xcuitest' driver was installed and matched caps.
+[Appium] Will require it at /Users/a1947/.appium/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@04a2][0m Appium v2.5.4 creating new XCUITestDriver (v5.16.1) session
+[38;5;16m[AppiumDriver@04a2][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@04a2][0m Appium's BaseDriver version is 9.6.0
+[38;5;16m[AppiumDriver@04a2][0m XCUITestDriver's BaseDriver version is 9.6.0
+[38;5;32m[XCUITestDriver@0aeb][0m The following provided capabilities were not recognized by this driver:
+[38;5;32m[XCUITestDriver@0aeb][0m   waitForAppScript
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Session created with session id: 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Determining device to run tests on: udid: '00008030-001E408C2232402E', real device: true
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Normalized platformVersion capability value '14.7.1' to '14.7'
+[38;5;64m[BaseDriver][0m Using local app '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m 'Payload/Runner.app' is the resulting application bundle selected from '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Using WDA path: '/Users/a1947/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Using WDA agent: '/Users/a1947/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Setting up real device
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m App 'id.co.bni.newagenbni46stg' is already installed
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m noReset is requested. The app will not be be (re)installed
+[38;5;96m[DevCon Factory][0m Requesting connection for device 00008030-001E408C2232402E on local port 55325, device port 55325
+[38;5;96m[DevCon Factory][0m Successfully requested the connection for 00008030-001E408C2232402E:55325
+[38;5;112m[WD Proxy][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Launching WebDriverAgent on the device
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Cleaning up the WebDriverAgent project after the module upgrade has happened (5.0.0 < 5.15.9)
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m socket hang up
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Determined the downstream protocol as 'W3C'
+[38;5;16m[AppiumDriver@04a2][0m New XCUITestDriver session created successfully, session 660c0454-7223-438f-8158-02d9b0b9cdf0 added to master session list
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session 200 48732 ms - 574
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0 200 2 ms - 310
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0 200 1 ms - 310
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/status 200 1 ms - 199
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/execute/sync[39m
+[38;5;0m[HTTP][0m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/execute/sync 200 158 ms - 63
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/execute/sync[39m
+[38;5;0m[HTTP][0m {"script":"mobile: deviceScreenInfo","args":[]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/execute/sync 200 5 ms - 63
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 43 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 244 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 236 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 225 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 233 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 235 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 232 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 233 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 242 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 233 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 234 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 235 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 230 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 226 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 235 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 253 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 232 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 245 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 237 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 227 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 229 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 234 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 240 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 236 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 257 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 229 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 237 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 229 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 240 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 219 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 131 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 103 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 155 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 205 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 195 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 209 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 205 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 164 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 142 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 143 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 288 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 192 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @label = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @name = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK' and @value = 'BNI Agen46, jaga kerahasiaan Username, Password Login, Password Transaksi, dan OTP terkait transaksi BNI Agen46. BNI tidak pernah meminta data tersebut untuk keperluan apapun. Info hubungi 1500146\nOK']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 278 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/2D000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/2D000000-0000-0000-5302-000000000000/location 200 26 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 0 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;160m[RemoteDebugger][0m Remote Debugger version 10.2.1
+[38;5;160m[RemoteDebugger][0m Setting communication protocol: using Target-based communication
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 115 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot 200 167 ms - 197824
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/touch/perform[39m
+[38;5;0m[HTTP][0m {"actions":[{"action":"longPress","options":{"x":200,"y":412}},{"action":"release","options":{}}]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/touch/perform 200 707 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 64 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @label = 'Username' and @name = 'Username']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 367 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/location 200 35 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 29 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @label = 'Username' and @name = 'Username']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 334 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/location 200 34 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/clear[39m
+[38;5;0m[HTTP][0m {"id":"46000000-0000-0000-5302-000000000000"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/clear 200 27 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"46000000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/click 200 207 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/value[39m
+[38;5;0m[HTTP][0m {"id":"46000000-0000-0000-5302-000000000000","text":"ThomasGunawan46","value":["T","h","o","m","a","s","G","u","n","a","w","a","n","4","6"]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/46000000-0000-0000-5302-000000000000/value 200 366 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/appium/device/hide_keyboard[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/appium/device/hide_keyboard 200 831 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 57 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @label = 'Password Login' and @name = 'Password Login']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 322 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/location 200 31 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 28 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @label = 'Password Login' and @name = 'Password Login']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 304 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/location 200 32 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"44000000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/click 200 172 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 50 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeTextField' and @label = 'Password Login' and @name = 'Password Login']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 829 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/location 200 44 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/clear[39m
+[38;5;0m[HTTP][0m {"id":"44000000-0000-0000-5302-000000000000"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/clear 200 39 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"44000000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/click 200 178 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/value[39m
+[38;5;0m[HTTP][0m {"id":"44000000-0000-0000-5302-000000000000","text":"Ipybni01","value":["I","p","y","b","n","i","0","1"]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/44000000-0000-0000-5302-000000000000/value 200 242 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/appium/device/hide_keyboard[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/appium/device/hide_keyboard 200 879 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 2 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot 200 141 ms - 322688
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 56 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @label = 'Masuk' and @name = 'Masuk']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 505 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/3E000000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/3E000000-0000-0000-5302-000000000000/location 200 33 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/3E000000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"3E000000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/3E000000-0000-0000-5302-000000000000/click 200 158 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 43 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Anda hanya mengakses Link Resmi Agen46 https://agenbni46.bni.co.id dan Aplikasi Mobile Agen 46 untuk melakukan transaksi.\nOK\"][count(. | //*[@type = 'XCUIElementTypeStaticText']) = count(//*[@type = 'XCUIElementTypeStaticText'])]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 577 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Anda hanya mengakses Link Resmi Agen46 https://agenbni46.bni.co.id dan Aplikasi Mobile Agen 46 untuk melakukan transaksi.\nOK\"][count(. | //*[@type = 'XCUIElementTypeStaticText']) = count(//*[@type = 'XCUIElementTypeStaticText'])]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 604 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Anda hanya mengakses Link Resmi Agen46 https://agenbni46.bni.co.id dan Aplikasi Mobile Agen 46 untuk melakukan transaksi.\nOK\"][count(. | //*[@type = 'XCUIElementTypeStaticText']) = count(//*[@type = 'XCUIElementTypeStaticText'])]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 828 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeStaticText[@name=\"Anda hanya mengakses Link Resmi Agen46 https://agenbni46.bni.co.id dan Aplikasi Mobile Agen 46 untuk melakukan transaksi.\nOK\"][count(. | //*[@type = 'XCUIElementTypeStaticText']) = count(//*[@type = 'XCUIElementTypeStaticText'])]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 259 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/19010000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/19010000-0000-0000-5302-000000000000/location 200 30 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/touch/perform[39m
+[38;5;0m[HTTP][0m {"actions":[{"action":"longPress","options":{"x":185,"y":380}},{"action":"release","options":{}}]}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/touch/perform 200 673 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot 200 118 ms - 183352
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 84 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeImage' and @label = 'Layanan Keuangan' and @name = 'Layanan Keuangan']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 562 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/2E010000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/2E010000-0000-0000-5302-000000000000/location 200 41 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/2E010000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"2E010000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/2E010000-0000-0000-5302-000000000000/click 200 180 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 2 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot 200 111 ms - 107364
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 81 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeButton' and @name = 'Layanan Keuangan' and @label = 'Layanan Keuangan']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 443 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/4F010000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/4F010000-0000-0000-5302-000000000000/location 200 36 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/4F010000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"4F010000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/4F010000-0000-0000-5302-000000000000/click 200 164 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 71 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @value = 'Transfer' and @name = 'Transfer' and @label = 'Transfer']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 431 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/69010000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/69010000-0000-0000-5302-000000000000/location 200 28 ms - 25
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/69010000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"69010000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/69010000-0000-0000-5302-000000000000/click 200 156 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 78 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//XCUIElementTypeApplication[@name=\"BNI Agen46\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[2]/XCUIElementTypeImage[count(. | //*[@type = 'XCUIElementTypeImage']) = count(//*[@type = 'XCUIElementTypeImage'])]"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 415 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/73010000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/73010000-0000-0000-5302-000000000000/location 200 34 ms - 27
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/73010000-0000-0000-5302-000000000000/click[39m
+[38;5;0m[HTTP][0m {"id":"73010000-0000-0000-5302-000000000000"}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Replacing sessionId 9AFDE583-F48B-4557-84EC-8D7B0E4F486A with 660c0454-7223-438f-8158-02d9b0b9cdf0
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/73010000-0000-0000-5302-000000000000/click 200 164 ms - 65
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":50}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/window/rect 200 49 ms - 48
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @value = 'Peningkatan Layanan\n Untuk Anda' and @name = 'Peningkatan Layanan\n Untuk Anda' and @label = 'Peningkatan Layanan\n Untuk Anda']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 542 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @value = 'Peningkatan Layanan\n Untuk Anda' and @name = 'Peningkatan Layanan\n Untuk Anda' and @label = 'Peningkatan Layanan\n Untuk Anda']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 514 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @value = 'Peningkatan Layanan\n Untuk Anda' and @name = 'Peningkatan Layanan\n Untuk Anda' and @label = 'Peningkatan Layanan\n Untuk Anda']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 518 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @value = 'Peningkatan Layanan\n Untuk Anda' and @name = 'Peningkatan Layanan\n Untuk Anda' and @label = 'Peningkatan Layanan\n Untuk Anda']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 479 ms - 12
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements[39m
+[38;5;0m[HTTP][0m {"using":"xpath","value":"//*[@type = 'XCUIElementTypeStaticText' and @value = 'Peningkatan Layanan\n Untuk Anda' and @name = 'Peningkatan Layanan\n Untuk Anda' and @label = 'Peningkatan Layanan\n Untuk Anda']"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/elements 200 176 ms - 139
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/8E010000-0000-0000-5302-000000000000/location[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/element/8E010000-0000-0000-5302-000000000000/location 200 24 ms - 26
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts[39m
+[38;5;0m[HTTP][0m {"implicit":30000}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/timeouts 200 0 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/screenshot 200 115 ms - 189000
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 2 ms - 22
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts[39m
+[38;5;0m[HTTP][0m {}
+[38;5;0m[HTTP][0m <-- GET /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/contexts 200 1 ms - 24
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/execute/sync[39m
+[38;5;0m[HTTP][0m {"script":"mobile: activeAppInfo","args":[]}
+[38;5;32m[XCUITestDriver@0aeb (660c0454)][0m Proxying to WDA with an unknown route: GET /wda/activeAppInfo
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/execute/sync 200 59 ms - 110
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/appium/device/terminate_app[39m
+[38;5;0m[HTTP][0m {"bundleId":"id.co.bni.newagenbni46stg"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/appium/device/terminate_app 200 1097 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context[39m
+[38;5;0m[HTTP][0m {"name":"NATIVE_APP"}
+[38;5;0m[HTTP][0m <-- POST /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0/context 200 1 ms - 14
+[38;5;0m[HTTP][0m 
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0[39m
+[38;5;0m[HTTP][0m {}
+[38;5;16m[AppiumDriver@04a2][0m Removing session 660c0454-7223-438f-8158-02d9b0b9cdf0 from our master session list
+[38;5;96m[DevCon Factory][0m Releasing connections for 00008030-001E408C2232402E device on any port number
+[38;5;96m[DevCon Factory][0m Found cached connections to release: ["00008030-001E408C2232402E:55325"]
+[38;5;96m[DevCon Factory][0m Releasing the listener for '00008030-001E408C2232402E:55325'
+[38;5;0m[HTTP][0m <-- DELETE /wd/hub/session/660c0454-7223-438f-8158-02d9b0b9cdf0 200 11 ms - 14
+[38;5;0m[HTTP][0m 
+[Appium] Received SIGTERM - shutting down
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event

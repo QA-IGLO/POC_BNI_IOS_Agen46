@@ -1,0 +1,51 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_SCAG0006_Normal_Block_Service,,,,27-05-2024 12:51:17,27-05-2024 13:00:27,9m - 9.427s,PASSED
+,,,,,,,
+Test Cases/SCAG0006/AGN0006-001,,,,27-05-2024 12:51:17,27-05-2024 12:53:03,1m - 45.952s,PASSED
+"BlockService.insertServiceBlock(""openCIF"")",,,,27-05-2024 12:51:17,27-05-2024 12:51:19,1.423s,PASSED
+"callTestCase(findTestCase(""Common Steps/Page_Login""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:51:19,27-05-2024 12:52:46,1m - 27.603s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:52:46,27-05-2024 12:52:52,5.409s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_BukaRekening""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:52:52,27-05-2024 12:52:54,2.236s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_BukaRekening_RekeningPandai""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:52:54,27-05-2024 12:52:56,2.036s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:52:56,27-05-2024 12:53:01,4.759s,PASSED
+"BlockService.deleteServiceBlock(""openCIF"")",,,,27-05-2024 12:53:01,27-05-2024 12:53:02,1.078s,PASSED
+closeApplication(),,,,27-05-2024 12:53:02,27-05-2024 12:53:03,1.297s,PASSED
+,,,,,,,
+Test Cases/SCAG0006/AGN0006-002,,,,27-05-2024 12:53:03,27-05-2024 12:54:59,1m - 55.511s,PASSED
+"BlockService.insertServiceBlock(""tiketInquiry"")",,,,27-05-2024 12:53:03,27-05-2024 12:53:04,0.918s,PASSED
+"callTestCase(findTestCase(""Common Steps/Page_Login""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:53:04,27-05-2024 12:54:35,1m - 30.343s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Page Beranda/Page_Beranda_BayarBeli""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:54:35,27-05-2024 12:54:41,6.404s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_TabBayarBeli/Page_BayarBeli_TiketTransportasi""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:54:41,27-05-2024 12:54:49,7.600s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_MenuTiketTransportasi/Page_TiketTransportasi_Penerbangan""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:54:49,27-05-2024 12:54:51,2.768s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:54:51,27-05-2024 12:54:56,4.764s,PASSED
+"BlockService.deleteServiceBlock(""tiketInquiry"")",,,,27-05-2024 12:54:56,27-05-2024 12:54:57,1.358s,PASSED
+closeApplication(),,,,27-05-2024 12:54:57,27-05-2024 12:54:59,1.330s,PASSED
+,,,,,,,
+Test Cases/SCAG0006/AGN0006-003,,,,27-05-2024 12:54:59,27-05-2024 12:56:43,1m - 44.064s,PASSED
+"BlockService.insertServiceBlock(""setorTunaiInquiry"")",,,,27-05-2024 12:54:59,27-05-2024 12:55:00,1.208s,PASSED
+"callTestCase(findTestCase(""Common Steps/Page_Login""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:55:00,27-05-2024 12:56:29,1m - 28.594s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:56:29,27-05-2024 12:56:34,5.381s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_SetorTunai""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:56:34,27-05-2024 12:56:35,0.833s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:56:35,27-05-2024 12:56:40,5.292s,PASSED
+"BlockService.deleteServiceBlock(""setorTunaiInquiry"")",,,,27-05-2024 12:56:40,27-05-2024 12:56:42,1.489s,PASSED
+closeApplication(),,,,27-05-2024 12:56:42,27-05-2024 12:56:43,1.241s,PASSED
+,,,,,,,
+Test Cases/SCAG0006/AGN0006-004,,,,27-05-2024 12:56:43,27-05-2024 12:58:36,1m - 53.634s,PASSED
+"BlockService.insertServiceBlock(""transferBNIInquiry"")",,,,27-05-2024 12:56:43,27-05-2024 12:56:45,2.114s,PASSED
+"callTestCase(findTestCase(""Common Steps/Page_Login""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:56:45,27-05-2024 12:58:19,1m - 34.234s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:58:19,27-05-2024 12:58:25,5.374s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:58:25,27-05-2024 12:58:28,3.590s,PASSED
+"tap(findTestObject(""Buka Rekening BNI Pandai/subMenu_TransferBNI""), 0)",,,,27-05-2024 12:58:28,27-05-2024 12:58:29,0.727s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:58:29,27-05-2024 12:58:34,5.119s,PASSED
+"BlockService.deleteServiceBlock(""transferBNIInquiry"")",,,,27-05-2024 12:58:34,27-05-2024 12:58:35,1.133s,PASSED
+closeApplication(),,,,27-05-2024 12:58:35,27-05-2024 12:58:36,1.311s,PASSED
+,,,,,,,
+Test Cases/SCAG0006/AGN0006-005,,,,27-05-2024 12:58:36,27-05-2024 13:00:27,1m - 50.198s,PASSED
+"BlockService.insertServiceBlock(""tfInquiry"")",,,,27-05-2024 12:58:36,27-05-2024 12:58:38,1.633s,PASSED
+"callTestCase(findTestCase(""Common Steps/Page_Login""), [:], STOP_ON_FAILURE)",,,,27-05-2024 12:58:38,27-05-2024 13:00:08,1m - 29.801s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan""), [:], STOP_ON_FAILURE)",,,,27-05-2024 13:00:08,27-05-2024 13:00:13,5.342s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer""), [:], STOP_ON_FAILURE)",,,,27-05-2024 13:00:13,27-05-2024 13:00:17,3.549s,PASSED
+"tap(findTestObject(""Buka Rekening BNI Pandai/subMenu_TransferAntarBank""), 0)",,,,27-05-2024 13:00:17,27-05-2024 13:00:18,0.727s,PASSED
+"callTestCase(findTestCase(""Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda""), [:], STOP_ON_FAILURE)",,,,27-05-2024 13:00:18,27-05-2024 13:00:24,6.598s,PASSED
+"BlockService.deleteServiceBlock(""tfInquiry"")",,,,27-05-2024 13:00:24,27-05-2024 13:00:25,1.194s,PASSED
+closeApplication(),,,,27-05-2024 13:00:25,27-05-2024 13:00:27,1.329s,PASSED

@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SCAG0006_Normal_Block_Service" time="549.427" tests="5" failures="0" errors="0">
+   <testsuite name="TS_SCAG0006_Normal_Block_Service" tests="5" failures="0" errors="0" time="549.427" skipped="0" timestamp="27-05-2024T12:51:17" hostname="a1947 - 1947s-air.mshome.net" id="Test Suites/TS_SCAG0006_Normal_Block_Service">
+      <properties>
+         <property name="deviceName" value="QAO iPhone"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116"/>
+         <property name="logFiles" value="/Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/execution0.log, /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium_error.log, /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium.log, /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium-proxy-server.log"/>
+         <property name="attachments" value="keyes/keyes-Before Input Login.png, keyes/keyes-After Input Login.png, keyes/keyes-Sebelum Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Masuk Layanan Keuangan.png, keyes/keyes-Sebelum Masuk Buka Rekening.png, keyes/keyes-Berhasil Masuk Buka Rekening.png, keyes/keyes-Sebelum Masuk Rekening Pandai.png, keyes/keyes-Berhasil Masuk Rekening Pandai.png, keyes/keyes-Berhasil Muncul Message.png, keyes/keyes-Before Input Login.png, keyes/keyes-After Input Login.png, keyes/keyes-Sebelum Masuk Menu Bayar Beli.png, keyes/keyes-Berhasil Masuk Menu Bayar Beli.png, keyes/keyes-Sebelum Masuk Menu Tiket Transportasi.png, keyes/keyes-Berhasil Masuk Menu Tiket Transportasi.png, keyes/keyes-Berhasil Muncul Message.png, keyes/keyes-Before Input Login.png, keyes/keyes-After Input Login.png, keyes/keyes-Sebelum Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Muncul Message.png, keyes/keyes-Before Input Login.png, keyes/keyes-After Input Login.png, keyes/keyes-Sebelum Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Muncul Message.png, keyes/keyes-Before Input Login.png, keyes/keyes-After Input Login.png, keyes/keyes-Sebelum Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Masuk Layanan Keuangan.png, keyes/keyes-Berhasil Muncul Message.png"/>
+         <property name="hostName" value="a1947 - 1947s-air.mshome.net"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;ready&quot;:true,&quot;message&quot;:&quot;The server is ready to accept new connections&quot;,&quot;build&quot;:{&quot;version&quot;:&quot;2.5.4&quot;,&quot;git-sha&quot;:&quot;e0bc557e7b991cb23583679e1cf1c8a92b793aeb&quot;,&quot;built&quot;:&quot;2024-05-20 09:53:41 +0100&quot;}}}"/>
+         <property name="katalonVersion" value="9.4.0.212"/>
+         <property name="deviceOS" value="iOS"/>
+         <property name="appiumVersion" value="2.5.4"/>
+         <property name="deviceModel" value="iPhone12,8"/>
+         <property name="hostAddress" value="192.168.137.249"/>
+         <property name="deviceManufacturer" value="Apple"/>
+         <property name="deviceId" value="00008030-001E408C2232402E"/>
+         <property name="deviceName" value="QAO iPhone"/>
+         <property name="deviceOSVersion" value="14.7.1"/>
+      </properties>
+      <testcase name="Test Cases/SCAG0006/AGN0006-001" time="105.952" classname="Test Cases/SCAG0006/AGN0006-001" status="PASSED">
+         <system-out><![CDATA[27-05-2024T12:51:17 - [TEST_CASE][PASSED] - Test Cases/SCAG0006/AGN0006-001: Test Cases/SCAG0006/AGN0006-001
+
+27-05-2024T12:51:17 - [TEST_STEP][PASSED] - BlockService.insertServiceBlock("openCIF"): BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:51:19 - [MESSAGE][PASSED] - BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:51:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/Page_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:51:19 - [TEST_CASE][PASSED] - Test Cases/Common Steps/Page_Login: Test Cases/Common Steps/Page_Login
+
+27-05-2024T12:51:19 - [TEST_STEP][PASSED] - startApplication("/Users/a1947/Downloads/BNI-Agen46-protected.ipa", false): Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:51:29 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+27-05-2024T12:51:29 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.0.0/bin/node"
+
+27-05-2024T12:51:29 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.0.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+27-05-2024T12:51:29 - [MESSAGE][INFO] - APPIUM_HOME: /Users/a1947/.appium
+
+27-05-2024T12:51:29 - [MESSAGE][INFO] - appium outlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium.log
+
+27-05-2024T12:51:29 - [MESSAGE][INFO] - appium errlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium_error.log
+
+27-05-2024T12:51:31 - [MESSAGE][INFO] - Appium server started on port 54,948
+
+27-05-2024T12:52:20 - [MESSAGE][PASSED] - Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:52:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/msg_PopUpBeforeLogin"), 30): Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:52:27 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:52:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:52:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Before Input Login.png]]
+
+27-05-2024T12:52:27 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(200, 412, 0): Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:52:27 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:52:28 - [MESSAGE][PASSED] - Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:52:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_username"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:52:28 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:52:28 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_username"), username, 3): Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:52:29 - [MESSAGE][PASSED] - Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:52:29 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:52:30 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:52:30 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:52:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:52:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_password"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:52:33 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:52:33 - [TEST_STEP][PASSED] - tap(findTestObject("Login/input_password"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:52:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:52:33 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), password, 3): Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:52:35 - [MESSAGE][PASSED] - Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:52:35 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:52:36 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:52:36 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:52:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:52:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:52:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-After Input Login.png]]
+
+27-05-2024T12:52:38 - [TEST_STEP][PASSED] - tap(findTestObject("Login/btn_login"), 3): Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:52:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:52:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login/msg_PopUpAfterLoginSuccess"), 20): Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:52:41 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:52:41 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(185, 380, 0): Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:52:41 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:52:41 - [MESSAGE][PASSED] - Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:52:41 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+27-05-2024T12:52:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-05-2024T12:52:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:52:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T12:52:46 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan: Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan
+
+27-05-2024T12:52:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T12:52:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Layanan Keuangan.png]]
+
+27-05-2024T12:52:47 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:52:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:52:48 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/Menu_LayananKeuangan"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T12:52:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T12:52:49 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:52:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:52:50 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T12:52:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Layanan Keuangan.png]]
+
+27-05-2024T12:52:50 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:52:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:52:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T12:52:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_BukaRekening"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_BukaRekening' successfully
+
+27-05-2024T12:52:52 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_BukaRekening: Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_BukaRekening
+
+27-05-2024T12:52:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Buka Rekening", []): Screenshot is taken
+
+27-05-2024T12:52:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:52 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Buka Rekening.png]]
+
+27-05-2024T12:52:52 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/subMenu_BukaRekening"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_BukaRekening'
+
+27-05-2024T12:52:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_BukaRekening'
+
+27-05-2024T12:52:53 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:52:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:52:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Buka Rekening", []): Screenshot is taken
+
+27-05-2024T12:52:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Buka Rekening.png]]
+
+27-05-2024T12:52:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_BukaRekening' successfully
+
+27-05-2024T12:52:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_BukaRekening_RekeningPandai"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_BukaRekening_RekeningPandai' successfully
+
+27-05-2024T12:52:54 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_BukaRekening_RekeningPandai: Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_BukaRekening_RekeningPandai
+
+27-05-2024T12:52:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Rekening Pandai", []): Screenshot is taken
+
+27-05-2024T12:52:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Rekening Pandai.png]]
+
+27-05-2024T12:52:54 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/select_RekeningPandai"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/select_RekeningPandai'
+
+27-05-2024T12:52:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/select_RekeningPandai'
+
+27-05-2024T12:52:55 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:52:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:52:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Rekening Pandai", []): Screenshot is taken
+
+27-05-2024T12:52:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Rekening Pandai.png]]
+
+27-05-2024T12:52:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_BukaRekening_RekeningPandai' successfully
+
+27-05-2024T12:52:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:52:56 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda: Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda
+
+27-05-2024T12:52:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Normal Block Service/message_PeningkatanLayananUntukAnda"), 10): Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:52:57 - [MESSAGE][PASSED] - Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:52:57 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:52:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:52:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Muncul Message", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:52:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:52:59 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Muncul Message.png]]
+
+27-05-2024T12:52:59 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:53:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:53:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:53:01 - [TEST_STEP][PASSED] - BlockService.deleteServiceBlock("openCIF"): BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:53:02 - [MESSAGE][PASSED] - BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:53:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+27-05-2024T12:53:03 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCAG0006/AGN0006-002" time="115.511" classname="Test Cases/SCAG0006/AGN0006-002" status="PASSED">
+         <system-out><![CDATA[27-05-2024T12:53:03 - [TEST_CASE][PASSED] - Test Cases/SCAG0006/AGN0006-002: Test Cases/SCAG0006/AGN0006-002
+
+27-05-2024T12:53:03 - [TEST_STEP][PASSED] - BlockService.insertServiceBlock("tiketInquiry"): BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:53:04 - [MESSAGE][PASSED] - BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:53:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/Page_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:53:04 - [TEST_CASE][PASSED] - Test Cases/Common Steps/Page_Login: Test Cases/Common Steps/Page_Login
+
+27-05-2024T12:53:04 - [TEST_STEP][PASSED] - startApplication("/Users/a1947/Downloads/BNI-Agen46-protected.ipa", false): Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:53:14 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+27-05-2024T12:53:15 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.0.0/bin/node"
+
+27-05-2024T12:53:15 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.0.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+27-05-2024T12:53:15 - [MESSAGE][INFO] - APPIUM_HOME: /Users/a1947/.appium
+
+27-05-2024T12:53:15 - [MESSAGE][INFO] - appium outlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium.log
+
+27-05-2024T12:53:15 - [MESSAGE][INFO] - appium errlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium_error.log
+
+27-05-2024T12:53:16 - [MESSAGE][INFO] - Appium server started on port 55,049
+
+27-05-2024T12:54:08 - [MESSAGE][PASSED] - Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:54:08 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/msg_PopUpBeforeLogin"), 30): Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:54:15 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:54:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:15 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Before Input Login.png]]
+
+27-05-2024T12:54:15 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(200, 412, 0): Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:54:15 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:54:16 - [MESSAGE][PASSED] - Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:54:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_username"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:54:16 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_username"), username, 3): Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:54:17 - [MESSAGE][PASSED] - Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:54:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:54:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:54:18 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_password"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:54:21 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:54:21 - [TEST_STEP][PASSED] - tap(findTestObject("Login/input_password"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:54:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:54:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), password, 3): Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:54:23 - [MESSAGE][PASSED] - Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:54:23 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:54:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:54:24 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:26 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:26 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-After Input Login.png]]
+
+27-05-2024T12:54:26 - [TEST_STEP][PASSED] - tap(findTestObject("Login/btn_login"), 3): Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:54:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:54:27 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login/msg_PopUpAfterLoginSuccess"), 20): Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:54:29 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:54:29 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(185, 380, 0): Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:54:29 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:54:30 - [MESSAGE][PASSED] - Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:54:30 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+27-05-2024T12:54:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-05-2024T12:54:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:54:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Page Beranda/Page_Beranda_BayarBeli"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_BayarBeli' successfully
+
+27-05-2024T12:54:35 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Page Beranda/Page_Beranda_BayarBeli: Test Cases/Common Steps/F_Page Beranda/Page_Beranda_BayarBeli
+
+27-05-2024T12:54:35 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Menu Bayar Beli", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Menu Bayar Beli.png]]
+
+27-05-2024T12:54:35 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:37 - [TEST_STEP][PASSED] - tap(findTestObject("Pemesanan Tiket/Menu_BayarBeli"), 5): Tapped on element 'Object Repository/Pemesanan Tiket/Menu_BayarBeli'
+
+27-05-2024T12:54:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pemesanan Tiket/Menu_BayarBeli'
+
+27-05-2024T12:54:38 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:40 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Menu Bayar Beli", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:40 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:40 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Menu Bayar Beli.png]]
+
+27-05-2024T12:54:40 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:54:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:54:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_BayarBeli' successfully
+
+27-05-2024T12:54:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_TabBayarBeli/Page_BayarBeli_TiketTransportasi"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_TabBayarBeli/Page_BayarBeli_TiketTransportasi' successfully
+
+27-05-2024T12:54:41 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_TabBayarBeli/Page_BayarBeli_TiketTransportasi: Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_TabBayarBeli/Page_BayarBeli_TiketTransportasi
+
+27-05-2024T12:54:41 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Menu Tiket Transportasi", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Menu Tiket Transportasi.png]]
+
+27-05-2024T12:54:41 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:43 - [TEST_STEP][PASSED] - tap(findTestObject("Pemesanan Tiket/Tab_TiketTransportasi"), 5): Tapped on element 'Object Repository/Pemesanan Tiket/Tab_TiketTransportasi'
+
+27-05-2024T12:54:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pemesanan Tiket/Tab_TiketTransportasi'
+
+27-05-2024T12:54:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+27-05-2024T12:54:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-05-2024T12:54:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Menu Tiket Transportasi", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:47 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Menu Tiket Transportasi.png]]
+
+27-05-2024T12:54:48 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:54:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:54:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_TabBayarBeli/Page_BayarBeli_TiketTransportasi' successfully
+
+27-05-2024T12:54:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_MenuTiketTransportasi/Page_TiketTransportasi_Penerbangan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_MenuTiketTransportasi/Page_TiketTransportasi_Penerbangan' successfully
+
+27-05-2024T12:54:49 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_MenuTiketTransportasi/Page_TiketTransportasi_Penerbangan: Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_MenuTiketTransportasi/Page_TiketTransportasi_Penerbangan
+
+27-05-2024T12:54:49 - [TEST_STEP][PASSED] - tap(findTestObject("Pemesanan Tiket/Select_Penerbangan"), 5): Tapped on element 'Object Repository/Pemesanan Tiket/Select_Penerbangan'
+
+27-05-2024T12:54:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Pemesanan Tiket/Select_Penerbangan'
+
+27-05-2024T12:54:49 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Pemesanan Tiket Penyebrangan ASDP/F_MenuTiketTransportasi/Page_TiketTransportasi_Penerbangan' successfully
+
+27-05-2024T12:54:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:54:51 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda: Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda
+
+27-05-2024T12:54:51 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Normal Block Service/message_PeningkatanLayananUntukAnda"), 10): Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:54:52 - [MESSAGE][PASSED] - Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:54:52 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Muncul Message", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:54:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:54:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Muncul Message.png]]
+
+27-05-2024T12:54:54 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:54:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:54:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:54:56 - [TEST_STEP][PASSED] - BlockService.deleteServiceBlock("tiketInquiry"): BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:54:57 - [MESSAGE][PASSED] - BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:54:57 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+27-05-2024T12:54:59 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCAG0006/AGN0006-003" time="104.064" classname="Test Cases/SCAG0006/AGN0006-003" status="PASSED">
+         <system-out><![CDATA[27-05-2024T12:54:59 - [TEST_CASE][PASSED] - Test Cases/SCAG0006/AGN0006-003: Test Cases/SCAG0006/AGN0006-003
+
+27-05-2024T12:54:59 - [TEST_STEP][PASSED] - BlockService.insertServiceBlock("setorTunaiInquiry"): BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:55:00 - [MESSAGE][PASSED] - BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:55:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/Page_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:55:00 - [TEST_CASE][PASSED] - Test Cases/Common Steps/Page_Login: Test Cases/Common Steps/Page_Login
+
+27-05-2024T12:55:00 - [TEST_STEP][PASSED] - startApplication("/Users/a1947/Downloads/BNI-Agen46-protected.ipa", false): Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:55:10 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+27-05-2024T12:55:10 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.0.0/bin/node"
+
+27-05-2024T12:55:10 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.0.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+27-05-2024T12:55:10 - [MESSAGE][INFO] - APPIUM_HOME: /Users/a1947/.appium
+
+27-05-2024T12:55:10 - [MESSAGE][INFO] - appium outlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium.log
+
+27-05-2024T12:55:10 - [MESSAGE][INFO] - appium errlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium_error.log
+
+27-05-2024T12:55:12 - [MESSAGE][INFO] - Appium server started on port 55,157
+
+27-05-2024T12:56:02 - [MESSAGE][PASSED] - Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:56:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/msg_PopUpBeforeLogin"), 30): Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:56:09 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:56:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:56:09 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:56:09 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Before Input Login.png]]
+
+27-05-2024T12:56:09 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(200, 412, 0): Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:56:09 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:56:10 - [MESSAGE][PASSED] - Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:56:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_username"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:56:11 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:56:11 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_username"), username, 3): Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:56:12 - [MESSAGE][PASSED] - Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:56:12 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:56:12 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:56:12 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:56:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:56:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_password"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:56:15 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:56:15 - [TEST_STEP][PASSED] - tap(findTestObject("Login/input_password"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:56:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:56:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:56:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), password, 3): Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:56:17 - [MESSAGE][PASSED] - Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:56:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:56:18 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:56:18 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:56:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:56:20 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:56:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:56:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-After Input Login.png]]
+
+27-05-2024T12:56:20 - [TEST_STEP][PASSED] - tap(findTestObject("Login/btn_login"), 3): Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:56:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:56:21 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login/msg_PopUpAfterLoginSuccess"), 20): Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:56:23 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:56:23 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(185, 380, 0): Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:56:23 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:56:24 - [MESSAGE][PASSED] - Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:56:24 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+27-05-2024T12:56:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-05-2024T12:56:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:56:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T12:56:29 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan: Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan
+
+27-05-2024T12:56:29 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T12:56:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:56:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Layanan Keuangan.png]]
+
+27-05-2024T12:56:29 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:56:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:56:30 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/Menu_LayananKeuangan"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T12:56:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T12:56:31 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:56:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:56:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T12:56:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:56:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Layanan Keuangan.png]]
+
+27-05-2024T12:56:32 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:56:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:56:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T12:56:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_SetorTunai"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_SetorTunai' successfully
+
+27-05-2024T12:56:34 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_SetorTunai: Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_SetorTunai
+
+27-05-2024T12:56:34 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/subMenu_SetorTunai"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_SetorTunai'
+
+27-05-2024T12:56:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_SetorTunai'
+
+27-05-2024T12:56:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_SetorTunai' successfully
+
+27-05-2024T12:56:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:56:35 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda: Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda
+
+27-05-2024T12:56:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Normal Block Service/message_PeningkatanLayananUntukAnda"), 10): Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:56:36 - [MESSAGE][PASSED] - Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:56:36 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:56:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:56:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Muncul Message", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:56:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:56:38 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Muncul Message.png]]
+
+27-05-2024T12:56:38 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:56:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:56:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:56:40 - [TEST_STEP][PASSED] - BlockService.deleteServiceBlock("setorTunaiInquiry"): BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:56:42 - [MESSAGE][PASSED] - BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:56:42 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+27-05-2024T12:56:43 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCAG0006/AGN0006-004" time="113.634" classname="Test Cases/SCAG0006/AGN0006-004" status="PASSED">
+         <system-out><![CDATA[27-05-2024T12:56:43 - [TEST_CASE][PASSED] - Test Cases/SCAG0006/AGN0006-004: Test Cases/SCAG0006/AGN0006-004
+
+27-05-2024T12:56:43 - [TEST_STEP][PASSED] - BlockService.insertServiceBlock("transferBNIInquiry"): BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:56:45 - [MESSAGE][PASSED] - BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:56:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/Page_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:56:45 - [TEST_CASE][PASSED] - Test Cases/Common Steps/Page_Login: Test Cases/Common Steps/Page_Login
+
+27-05-2024T12:56:45 - [TEST_STEP][PASSED] - startApplication("/Users/a1947/Downloads/BNI-Agen46-protected.ipa", false): Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:56:55 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+27-05-2024T12:56:55 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.0.0/bin/node"
+
+27-05-2024T12:56:55 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.0.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+27-05-2024T12:56:55 - [MESSAGE][INFO] - APPIUM_HOME: /Users/a1947/.appium
+
+27-05-2024T12:56:55 - [MESSAGE][INFO] - appium outlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium.log
+
+27-05-2024T12:56:55 - [MESSAGE][INFO] - appium errlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium_error.log
+
+27-05-2024T12:56:57 - [MESSAGE][INFO] - Appium server started on port 55,258
+
+27-05-2024T12:57:48 - [MESSAGE][PASSED] - Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:57:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/msg_PopUpBeforeLogin"), 30): Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:57:56 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:57:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:57:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:57:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Before Input Login.png]]
+
+27-05-2024T12:57:56 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(200, 412, 0): Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:57:56 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:57:57 - [MESSAGE][PASSED] - Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:57:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_username"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:57:58 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:57:58 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_username"), username, 3): Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:57:59 - [MESSAGE][PASSED] - Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:57:59 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:57:59 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:57:59 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:58:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:58:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_password"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:58:02 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:58:02 - [TEST_STEP][PASSED] - tap(findTestObject("Login/input_password"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:58:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:58:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), password, 3): Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:58:04 - [MESSAGE][PASSED] - Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:58:04 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:58:05 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:58:05 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:58:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:58:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:58:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:58:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-After Input Login.png]]
+
+27-05-2024T12:58:07 - [TEST_STEP][PASSED] - tap(findTestObject("Login/btn_login"), 3): Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:58:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T12:58:08 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login/msg_PopUpAfterLoginSuccess"), 20): Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:58:13 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T12:58:13 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(185, 380, 0): Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:58:13 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:58:14 - [MESSAGE][PASSED] - Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T12:58:14 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+27-05-2024T12:58:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-05-2024T12:58:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:58:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T12:58:19 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan: Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan
+
+27-05-2024T12:58:19 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T12:58:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:58:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Layanan Keuangan.png]]
+
+27-05-2024T12:58:19 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:58:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:58:20 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/Menu_LayananKeuangan"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T12:58:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T12:58:21 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:58:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:58:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T12:58:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:58:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Layanan Keuangan.png]]
+
+27-05-2024T12:58:23 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:58:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:58:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T12:58:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer' successfully
+
+27-05-2024T12:58:25 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer: Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer
+
+27-05-2024T12:58:25 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/F_Search/search_LayananKeuangan"), 0): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/search_LayananKeuangan'
+
+27-05-2024T12:58:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:58:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/search_LayananKeuangan'
+
+27-05-2024T12:58:25 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:58:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:58:26 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/F_Search/select_Transfer"), 0): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/select_Transfer'
+
+27-05-2024T12:58:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:58:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/select_Transfer'
+
+27-05-2024T12:58:27 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T12:58:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T12:58:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer' successfully
+
+27-05-2024T12:58:28 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/subMenu_TransferBNI"), 0): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_TransferBNI'
+
+27-05-2024T12:58:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:58:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_TransferBNI'
+
+27-05-2024T12:58:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:58:29 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda: Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda
+
+27-05-2024T12:58:29 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Normal Block Service/message_PeningkatanLayananUntukAnda"), 10): Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:58:30 - [MESSAGE][PASSED] - Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T12:58:30 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:58:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:58:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Muncul Message", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:58:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:58:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Muncul Message.png]]
+
+27-05-2024T12:58:32 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:58:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:58:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T12:58:34 - [TEST_STEP][PASSED] - BlockService.deleteServiceBlock("transferBNIInquiry"): BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:58:35 - [MESSAGE][PASSED] - BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T12:58:35 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+27-05-2024T12:58:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCAG0006/AGN0006-005" time="110.198" classname="Test Cases/SCAG0006/AGN0006-005" status="PASSED">
+         <system-out><![CDATA[27-05-2024T12:58:36 - [TEST_CASE][PASSED] - Test Cases/SCAG0006/AGN0006-005: Test Cases/SCAG0006/AGN0006-005
+
+27-05-2024T12:58:36 - [TEST_STEP][PASSED] - BlockService.insertServiceBlock("tfInquiry"): BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:58:38 - [MESSAGE][PASSED] - BlockService.insertServiceBlock is PASSED
+
+27-05-2024T12:58:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/Page_Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T12:58:38 - [TEST_CASE][PASSED] - Test Cases/Common Steps/Page_Login: Test Cases/Common Steps/Page_Login
+
+27-05-2024T12:58:38 - [TEST_STEP][PASSED] - startApplication("/Users/a1947/Downloads/BNI-Agen46-protected.ipa", false): Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:58:48 - [MESSAGE][WARNING] - Failed to start ios_webkit_debug_proxy on default port 27753
+
+27-05-2024T12:58:48 - [MESSAGE][INFO] - Detected NodeJS location: "/opt/homebrew/Cellar/node/22.0.0/bin/node"
+
+27-05-2024T12:58:48 - [MESSAGE][INFO] - PATH: /opt/homebrew/Cellar/node/22.0.0/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+
+27-05-2024T12:58:48 - [MESSAGE][INFO] - APPIUM_HOME: /Users/a1947/.appium
+
+27-05-2024T12:58:48 - [MESSAGE][INFO] - appium outlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium.log
+
+27-05-2024T12:58:48 - [MESSAGE][INFO] - appium errlog: /Users/a1947/Katalon Studio/POC_BNI_IOS_Agen46/Reports/20240527_125116/TS_SCAG0006_Normal_Block_Service/20240527_125116/appium_error.log
+
+27-05-2024T12:58:50 - [MESSAGE][INFO] - Appium server started on port 55,364
+
+27-05-2024T12:59:39 - [MESSAGE][PASSED] - Started app at: '/Users/a1947/Downloads/BNI-Agen46-protected.ipa'
+
+27-05-2024T12:59:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/msg_PopUpBeforeLogin"), 30): Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:59:48 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpBeforeLogin' is present
+
+27-05-2024T12:59:48 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Before Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:59:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:59:48 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Before Input Login.png]]
+
+27-05-2024T12:59:48 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(200, 412, 0): Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:59:48 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T12:59:49 - [MESSAGE][PASSED] - Tapped and held at [200, 412] with duration (default)
+
+27-05-2024T12:59:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_username"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:59:50 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_username' is present
+
+27-05-2024T12:59:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_username"), username, 3): Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:59:51 - [MESSAGE][PASSED] - Text 'ThomasGunawan46' has been set to element 'Object Repository/Login/input_username'
+
+27-05-2024T12:59:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:59:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:59:52 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:59:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:59:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login/input_password"), timeout, STOP_ON_FAILURE): Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:59:54 - [MESSAGE][PASSED] - Element 'Object Repository/Login/input_password' is present
+
+27-05-2024T12:59:54 - [TEST_STEP][PASSED] - tap(findTestObject("Login/input_password"), 0, STOP_ON_FAILURE): Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:59:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T12:59:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/input_password'
+
+27-05-2024T12:59:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/input_password"), password, 3): Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:59:56 - [MESSAGE][PASSED] - Text 'Ipybni01' has been set to element 'Object Repository/Login/input_password'
+
+27-05-2024T12:59:56 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+27-05-2024T12:59:57 - [MESSAGE][PASSED] - Keyboard is hidden
+
+27-05-2024T12:59:57 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T12:59:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T12:59:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("After Input Login", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T12:59:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T12:59:59 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-After Input Login.png]]
+
+27-05-2024T12:59:59 - [TEST_STEP][PASSED] - tap(findTestObject("Login/btn_login"), 3): Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T13:00:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Login/btn_login'
+
+27-05-2024T13:00:00 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Login/msg_PopUpAfterLoginSuccess"), 20): Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T13:00:02 - [MESSAGE][PASSED] - Element 'Object Repository/Login/msg_PopUpAfterLoginSuccess' is exist
+
+27-05-2024T13:00:02 - [TEST_STEP][PASSED] - tapAndHoldAtPosition(185, 380, 0): Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T13:00:02 - [MESSAGE][WARNING] - Duration '0' is invalid. Using default duration.
+
+27-05-2024T13:00:03 - [MESSAGE][PASSED] - Tapped and held at [185, 380] with duration (default)
+
+27-05-2024T13:00:03 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+27-05-2024T13:00:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-05-2024T13:00:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/Page_Login' successfully
+
+27-05-2024T13:00:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T13:00:08 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan: Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan
+
+27-05-2024T13:00:08 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Sebelum Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T13:00:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T13:00:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Sebelum Masuk Layanan Keuangan.png]]
+
+27-05-2024T13:00:08 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T13:00:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T13:00:09 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/Menu_LayananKeuangan"), 3): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T13:00:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/Menu_LayananKeuangan'
+
+27-05-2024T13:00:10 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T13:00:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T13:00:11 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Masuk Layanan Keuangan", []): Screenshot is taken
+
+27-05-2024T13:00:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T13:00:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Masuk Layanan Keuangan.png]]
+
+27-05-2024T13:00:11 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T13:00:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T13:00:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Page Beranda/Page_Beranda_LayananKeuangan' successfully
+
+27-05-2024T13:00:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer' successfully
+
+27-05-2024T13:00:13 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer: Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer
+
+27-05-2024T13:00:13 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/F_Search/search_LayananKeuangan"), 0): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/search_LayananKeuangan'
+
+27-05-2024T13:00:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T13:00:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/search_LayananKeuangan'
+
+27-05-2024T13:00:14 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T13:00:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T13:00:15 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/F_Search/select_Transfer"), 0): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/select_Transfer'
+
+27-05-2024T13:00:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T13:00:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/F_Search/select_Transfer'
+
+27-05-2024T13:00:16 - [TEST_STEP][PASSED] - delay(1, STOP_ON_FAILURE): Delayed 1 second(s)
+
+27-05-2024T13:00:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+27-05-2024T13:00:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Buka Rekening BNI Pandai/F_SubMenu_LayananKeuangan/Page_LayananKeuangan_Transfer' successfully
+
+27-05-2024T13:00:17 - [TEST_STEP][PASSED] - tap(findTestObject("Buka Rekening BNI Pandai/subMenu_TransferAntarBank"), 0): Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_TransferAntarBank'
+
+27-05-2024T13:00:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+27-05-2024T13:00:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Buka Rekening BNI Pandai/subMenu_TransferAntarBank'
+
+27-05-2024T13:00:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T13:00:18 - [TEST_CASE][PASSED] - Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda: Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda
+
+27-05-2024T13:00:18 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Normal Block Service/message_PeningkatanLayananUntukAnda"), 10): Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T13:00:20 - [MESSAGE][PASSED] - Element 'Object Repository/Normal Block Service/message_PeningkatanLayananUntukAnda' is exist
+
+27-05-2024T13:00:20 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T13:00:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T13:00:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Berhasil Muncul Message", STOP_ON_FAILURE): Screenshot is taken
+
+27-05-2024T13:00:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-05-2024T13:00:22 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes/keyes-Berhasil Muncul Message.png]]
+
+27-05-2024T13:00:22 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+27-05-2024T13:00:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-05-2024T13:00:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common Steps/F_Block Service/Message_PeningkatanLayananUntukAnda' successfully
+
+27-05-2024T13:00:24 - [TEST_STEP][PASSED] - BlockService.deleteServiceBlock("tfInquiry"): BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T13:00:25 - [MESSAGE][PASSED] - BlockService.deleteServiceBlock is PASSED
+
+27-05-2024T13:00:25 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+27-05-2024T13:00:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-05-2024T12:51:17 - [TEST_SUITE][PASSED] - TS_SCAG0006_Normal_Block_Service: Test Cases/SCAG0006/AGN0006-005]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
